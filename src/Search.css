@@ -1,0 +1,18 @@
+input {
+  height: clamp(40px, 3vh, 80px);
+  width: clamp(200px, 50vw, 1000px);
+  border-radius: 300px;
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+input:focus {
+  outline: none;
+}
+
+.form {
+  margin: 3vh;
+}
+.search {
+  text-align: center;
+}
