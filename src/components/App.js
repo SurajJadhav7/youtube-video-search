@@ -3,7 +3,7 @@ import Search from "./Search";
 import Video from "./Video";
 import VideoList from "./VideoList";
 import "./App.css";
-import youtube from "./api/youtube";
+import youtube from "../api/youtube";
 
 export default function App() {
   const [videos, setVideos] = useState([]);
